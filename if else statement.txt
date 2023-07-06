@@ -1,0 +1,16 @@
+if else statement:
+=================
+
+syntax:
+
+if (condition) 
+{
+    // Code to be executed if the condition is true
+} 
+else 
+{
+    // Code to be executed if the condition is false
+}
+
+if-else Statement: The if-else statement allows you to specify different blocks of code to be executed based on whether a condition is true or false.
+                   Only one of the two blocks (either the if block or the else block) will be executed based on the condition.

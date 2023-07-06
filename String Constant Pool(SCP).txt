@@ -1,0 +1,11 @@
+String Constant Pool(SCP):
+=========================
+In Java, the string constant pool is a part of the Java heap memory. The Java heap is the runtime data area where objects are allocated during the execution of a Java program.
+
+More specifically, the string constant pool is a special area within the Java heap that is dedicated to storing string literals. It is a pool of unique string objects that are shared among different parts of the program. The string constant pool is created by the Java Virtual Machine (JVM) when a Java program starts up.
+
+The exact location of the string constant pool in memory may vary depending on the JVM implementation. However, conceptually, it can be thought of as a separate section within the heap memory.
+
+The string constant pool plays an important role in Java's handling of strings. When a string literal is encountered in the program, the JVM checks if a string with the same value already exists in the string constant pool. If it does, the existing string object is reused. This string interning mechanism helps in conserving memory and optimizing string comparisons.
+
+It's important to note that the string constant pool is distinct from the normal object heap where dynamically created string objects are stored. The string constant pool specifically stores string literals and interned strings, while dynamically created strings have their own memory allocations in the regular object heap.

@@ -1,0 +1,39 @@
+Mutable string in java:
+=======================
+       In Java, strings are immutable, which means that once a string object is created, its value cannot be changed. However, there is a mutable alternative               
+       to strings called StringBuilder.
+
+       The StringBuilder class in Java provides a mutable sequence of characters. You can modify the content of a StringBuilder object without creating a new  
+       object each time. This can be useful when you need to perform multiple modifications to a string-like object efficiently.
+
+ example:
+
+StringBuilder sb = new StringBuilder("Hello");
+
+// Append additional text to the StringBuilder
+sb.append(" World!");
+
+// Insert text at a specific position
+sb.insert(5, "Java");
+
+// Replace a portion of the StringBuilder
+sb.replace(6, 11, "GPT");
+
+// Delete characters from the StringBuilder
+sb.delete(11, 13);
+
+// Convert the StringBuilder to a string
+String result = sb.toString();
+
+System.out.println(result);
+Output: HelloJava World
+
+We create a StringBuilder object sb with an initial value of "Hello".
+Using various methods provided by StringBuilder, we modify the content of sb:
+append() adds the text " World!" to the end of the StringBuilder.
+insert() inserts the text "Java" at position 5 in the StringBuilder.
+replace() replaces the portion of the StringBuilder from index 6 to 10 with the text "GPT".
+delete() removes the characters from index 11 to 12 from the StringBuilder.
+Finally, we convert the StringBuilder to a regular String using the toString() method and store it in the result variable.
+We print the value of result, which is "HelloJava World".
+By using StringBuilder, you can efficiently modify the content of a string-like object without creating new objects, making it suitable for scenarios where frequent modifications are required.

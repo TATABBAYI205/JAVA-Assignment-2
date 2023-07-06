@@ -1,0 +1,48 @@
+Conditional statements in Java:-
+===============================
+       Conditional statements in Java are used to control the flow of a program based on certain conditions. They allow you to make decisions and execute            
+       specific blocks of code based on whether a condition evaluates to true or false. 
+
+       There are three main types of conditional statements in Java.
+               -> if Statement: The if statement is the most basic conditional statement. It executes a block of code only if a specified condition is true.      
+                  syntax :
+                     if (condition) 
+                     {
+                         // Code to be executed if the condition is true
+                     }
+                 Optionally, you can add an else block to the if statement to specify an alternative block of code to be executed if the condition is false.
+
+               -> if-else Statement: The if-else statement allows you to specify different blocks of code to be executed based on whether a condition is  
+                  true or false. 
+                  syntax:
+                     if (condition) 
+                     {
+                      // Code to be executed if the condition is true
+                     }
+                     else
+                     {
+                     // Code to be executed if the condition is false
+                     }
+                  Only one of the two blocks (either the if block or the else block) will be executed based on the condition.
+
+               -> if-else if-else Statement: The if-else if-else statement allows you to test multiple conditions and specify different blocks of code to 
+                  be executed based on which condition is true. 
+                  syntax:
+                  if (condition1) 
+                  {
+                  // Code to be executed if condition1 is true
+                  }  
+                  else if (condition2) 
+                  {
+                  // Code to be executed if condition2 is true
+                  }      
+                  else 
+                  {
+                  // Code to be executed if no condition is true
+                  }
+               The conditions are evaluated in order, and as soon as a condition evaluates to true, the corresponding block of code is executed. 
+               If none of the conditions are true, the code in the else block is executed.
+
+                The use of conditional statements in Java is essential for implementing decision-making logic in programs. They allow you to control the                
+            execution of code based on specific conditions, enabling you to handle different scenarios and make the program more dynamic. Conditional  
+            statements are commonly used in tasks such as input validation, error handling, branching logic, and algorithmic decision-making.

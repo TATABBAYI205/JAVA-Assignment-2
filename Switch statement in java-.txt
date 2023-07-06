@@ -1,0 +1,24 @@
+Switch statement in java:-
+==========================
+      The switch statement in Java is a control statement used for decision-making. It provides an alternative way to write a series of if-else statements  
+      when you have multiple options to choose from based on the value of a single expression.
+
+      The switch statement works by evaluating an expression and then matching its value with various cases. Once a matching case is found, the corresponding  
+      block of code is executed. The expression inside the switch statement can be of type byte, short, int, char, String, or an enumerated type.
+
+syntax:
+======
+switch (expression) {
+    case value1:
+        // Code block to be executed if expression matches value1
+        break;
+    case value2:
+        // Code block to be executed if expression matches value2
+        break;
+    case value3:
+        // Code block to be executed if expression matches value3
+        break;
+    // ...
+    default:
+        // Code block to be executed if no matching case is found
+}

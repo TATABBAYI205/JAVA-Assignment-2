@@ -1,0 +1,32 @@
+Operators in Java:-
+=================
+Based on the number of operands, operators in Java can be classified into the following categories:
+
+Unary Operators: These operators work with a single operand. They can be prefix or postfix operators.
+
+-> Prefix Unary Operators: These operators precede the operand.
+   ++ (increment): Increments the value of the operand by 1.
+   -- (decrement): Decrements the value of the operand by 1.
+   + (unary plus): Represents a positive value.
+   - (unary minus): Negates the value of the operand.
+   ! (logical NOT): Returns the logical complement of the operand.
+
+-> Postfix Unary Operators: These operators follow the operand. 
+
+   ++ (increment): Increments the value of the operand by 1.
+   -- (decrement): Decrements the value of the operand by 1.
+
+Binary Operators: These operators work with two operands. They are the most common type of operators in Java. 
+
+           -> Arithmetic Operators: + (addition), - (subtraction), * (multiplication), / (division), % (modulus).
+
+           -> Relational Operators: == (equal to), != (not equal to), > (greater than), < (less than), >= (greater than or equal to), 
+                                    <= (less than or equal to).
+
+           -> Logical Operators: && (logical AND), || (logical OR).
+
+           -> Bitwise Operators: & (bitwise AND), | (bitwise OR), ^ (bitwise XOR), << (left shift), >> (right shift), >>> (unsigned right shift).
+
+           -> Assignment Operators: = (simple assignment), += (add and assign), -= (subtract and assign), *= (multiply and assign), /= (divide and assign), 
+                                      %= (modulus and assign), <<= (left shift and assign), >>= (right shift and assign), &= (bitwise AND and assign), 
+                                      |= (bitwise OR and assign), ^= (bitwise XOR and assign).

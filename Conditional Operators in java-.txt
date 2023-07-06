@@ -1,0 +1,14 @@
+Conditional Operators in java:-
+===============================
+-> Conditional (ternary) operator:- It is the only ternary operator in Java and has the following syntax: condition ?   
+   expression1 : expression2. It evaluates the condition and returns the value of expression1 if the condition 
+   is true, otherwise it returns the value of expression2. 
+
+-> Logical AND operator (&&):- It performs a logical AND operation between two boolean expressions and returns 
+   true if both expressions evaluate to true; otherwise, it returns false. 
+
+-> Logical OR operator (||):- It performs a logical OR operation between two boolean expressions and returns true
+   if at least one of the expressions evaluates to true; otherwise, it returns false. 
+
+    These conditional operators are commonly used in conditional statements, such as if statements and loops, to      
+    control the flow of the program based on certain conditions.

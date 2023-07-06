@@ -1,0 +1,63 @@
+Comparing two strings in java:
+=============================
+  In Java the comparision of two Strings are three ways to do ,are
+
+-> Using the equals() method: The equals() method is used to compare the content of two strings. It returns true if the content of the two strings is the    
+   same, and false otherwise. 
+   example:
+
+    String str1 = "Hello";
+    String str2 = "World";
+
+    if (str1.equals(str2)) 
+   {
+    System.out.println("The strings are equal.");
+   } 
+   else 
+   {
+    System.out.println("The strings are not equal.");
+   }
+
+   Output: The strings are not equal.
+
+-> Ignoring case: If you want to compare strings while ignoring the case (uppercase or lowercase), you can use the equalsIgnoreCase() method instead of  
+   equals(). It performs a case-insensitive comparison. 
+   example:
+
+   String str1 = "hello";
+   String str2 = "Hello";
+
+   if (str1.equalsIgnoreCase(str2)) 
+   {
+    System.out.println("The strings are equal.");
+   }  
+   else 
+   {
+    System.out.println("The strings are not equal.");
+   }
+
+   Output: The strings are equal.
+
+-> Using the compareTo() method: The compareTo() method is used to perform lexicographical comparison of two strings. It returns an integer value that 
+   indicates the relative order of the strings. If the result is zero, the strings are equal. If the result is negative, the first string is 
+   lexicographically less than the second string. If the result is positive, the first string is lexicographically greater than the second string. 
+   example:
+
+   String str1 = "Hello";
+   String str2 = "Nature";
+
+   int result = str1.compareTo(str2);
+   if (result == 0) 
+   {
+    System.out.println("The strings are equal.");
+   }  
+   else if (result < 0) 
+   {
+    System.out.println("str1 is less than str2.");
+   }
+   else 
+   {
+    System.out.println("str1 is greater than str2.");
+   }
+
+   Output: str1 is less than str2.
